@@ -31,10 +31,10 @@ const app = express();
 // https://cloud.google.com/dialogflow/docs/setup for details.
 
 const webhookUrl = 'Place webhook url here';
-const projectId = 'Place dialogflow project id here';
-const botName = 'Place Viber bot name here';
-const botAvatarLink = 'Place image link less than 100kb';
-const viberToken = 'Place Viber token here';
+const projectId = 'testbot-muhy';
+const botName = 'PEvaStyle';
+const botAvatarLink = 'https://share.cdn.viber.com/pg_download?id=0-04-01-8a83062418f14cae31f0947f70a4952ad753f134c07619b86ee672e2241d99d8&filetype=jpg&type=icon';
+const viberToken = '4c5d894b9fc008ee-6c3361464e7c97bf-766ced92a88d5b5';
 
 const sessionClient = new dialogflowSessionClient(projectId);
 
