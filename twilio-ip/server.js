@@ -28,7 +28,7 @@ const Chat = require('twilio-chat');
 // https://cloud.google.com/dialogflow/docs/setup for details.
 
 const projectId = 'Place your dialogflow projectId here';
-const accountSid = 'Place your accont SID here';
+const accountSid = 'ACdff2f580b2df6ceed229b3dd480d0f50';
 const apiKey = 'Place your API key here';
 const apiSecret = 'Place your secret API key here';
 const serviceSid = 'Place your service SID here';
